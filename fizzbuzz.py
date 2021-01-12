@@ -8,7 +8,15 @@ def do_fizzbuzz():
     else, print the number.
     """
     # Fizzbuzz with if and for
-
+    for i in range(1,100+1):
+        if i%15==0:
+            print('fizzbuzz')
+        elif i%3==0:
+            print('fizz')
+        elif i%5==0:
+            print('buzz')
+        else:
+            print(i)
     # Fizzbuzz with list comprehension
 
     # Fizzbuzz in one line
